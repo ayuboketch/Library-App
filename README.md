@@ -1,9 +1,4 @@
 ![Screenshot 2024-07-11 at 16 47 49](https://github.com/ayuboketch/Library-App/assets/17433791/448106c6-174c-4fde-bfb3-a5b10784acfa)
-![Screenshot 2024-07-11 at 16 47 49](https://github.com/ayuboketch/Library-App/assets/17433791/45c81830-e32f-4845-a974-61a27cf4e365)
-
-Sure! Here is a README file for your Library App:
-
----
 
 # Library App
 
