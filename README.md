@@ -233,7 +233,3 @@ submit.addEventListener("click", function(event) {
 
 displayBooks();
 ```
-
----
-
-This README provides an overview of your project, instructions for installation and usage, and code snippets for quick reference. You can customize and expand it further based on your needs.
