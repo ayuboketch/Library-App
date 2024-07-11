@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>My Library App</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <h1>My Library App</h1>
+            <div class="form">
+                <label for="bookName">Book Name</label>
+                <input type="text" name="bookName" id="bookName">
+            </div>
+            <div class="form">
+                <label for="page">Page</label>
+                <input type="number" name="page" id="page">
+            </div>
+            <div class="form">
+                <label for="read">Read</label>
+                <input type="checkbox" name="read" id="read">
+            </div>
+            <div class="form">
+                <label for="author">Author</label>
+                <input type="text" name="author" id="author">
+            </div>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+        <div id="library"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
