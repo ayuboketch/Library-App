@@ -6,7 +6,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('./library-art-book-theme-rth0ek661fi3zdwz.jpg');
+    background-image: url("./library-art-book-theme-rth0ek661fi3zdwz.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,16 +60,43 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+button:hover,
+button:focus,
+.detail-button:hover {
     background-color: #0056b3;
 }
 
 #library {
-    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    width: 300px;
-    height: 100%; /* Ensure it grows with content */
+    width: auto;
+    height: 100%;
     overflow-y: auto;
+    background: rgba(239, 65, 65, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: white;
+}
+
+.detail-button {
+    width: 40%;
+    padding: 10px;
+    border: 50px;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 10px;
 }
